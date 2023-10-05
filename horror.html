@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Small Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="/image/logo,1.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="new.html">New</a></li>
+                <li><a href="popular.html">Popular</a></li>
+                <li><a href="novel.html">Novel</a></li>
+                <li><a href="kid.html">Kid</a></li>
+                <li><a class="active" href="horror.html">Horror</a></li>
+            </ul>
+            <img id="menu-btn" src="/image/menu.png" alt="">
+        </div>
+    </nav>
+    <section id="horror">
+        <h2>Horror</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae deleniti earum, ut, voluptas, consectetur commodi illum voluptatem facere culpa dolor quis est voluptate enim temporibus. Adipisci provident nemo, earum sit vero id illum esse enim eligendi in quas, autem, dignissimos deserunt fugiat natus eum. Consectetur architecto voluptatem vero veritatis! Molestias vitae esse provident repellat numquam sint iure neque magnam excepturi.</p>
+        <div class="btn">
+            <a class="store" href="#"> Buy Now</a>
+        </div>
+    </section>
+    <section id="course">
+        <h1>Horror Book</h1>
+        <p>choose your favourite book</p>
+        <div class="border">
+            <div class="border-bottom"></div>
+        </div>
+        <div class="course-box">
+            <div class="courses">
+                <img src="/image/o11.jpg" alt="">
+                <div class="detail">
+                    <span>Updated 1/02/2022</span>
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(230)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    $10
+                </div>
+            </div>
+          
+            <div class="courses">
+                <img src="/image/o3.jpg" alt="">
+                <div class="detail">
+                    <span>Updated 1/02/2022</span>
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(230)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    $10
+                </div>
+            </div>
+            
+            <div class="courses">
+                <img src="/image/o4.jpg" alt="">
+                <div class="detail">
+                    <span>Updated 1/02/2022</span>
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(230)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    $10
+                </div>
+            </div>
+            <div class="courses">
+                <img src="/image/o10.jpg" alt="">
+                <div class="detail">
+                    <span>Updated 1/02/2022</span>
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(230)</span>
+                    </div>
+                </div>
+                <div class="cost">
+                    $10
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="banner">
+        <form action="">
+            <h3>subscribe for latest Updates</h3>
+            <input type="email" name="" placeholder="enter your email" id="" class="box">
+            <input type="submit" value="subscribe" class="btn">
+            <div class="pro-link">
+                <span>or</span>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-telegram"></i>
+                <div class="phone">
+                    <h1>Tel:</h1>
+                    <p><strong>metfone:</strong>0884638665 <br>
+                    <strong>cellcard:</strong> 077207138</p>
+                </div>
+            </div>
+             
+        </form>
+    </section>
+    <section></section>
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active')
+        });
+        $('#menu-close').click(function(){
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+</html>
